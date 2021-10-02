@@ -1,0 +1,10 @@
+<div class="header">
+    <h1><!--{{name}}-->{{getName()}}</h1>
+    <ul class="menu">
+        <li>Haqqimizda</li>
+        <li>Me</li>
+    </ul>
+    <ul>
+        <li *ngFor="let item of items">{{item.desc}}  {{item.id}}</li>
+    </ul>
+</div>
